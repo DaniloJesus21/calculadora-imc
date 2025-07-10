@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.body {
+  background-color: rgb(203, 231, 231);
+  display: flex;
+  justify-content: center;
+  min-height: 100dvh;
+}
+
+main {
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.container {
+  background-color: white;
+  max-width: 800px;
+  padding: 1rem 2rem 0;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 1rem 1rem 0;
+  }
+}

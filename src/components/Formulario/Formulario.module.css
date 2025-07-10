@@ -1,0 +1,109 @@
+main {
+  padding: 1rem;
+}
+
+/* .infoContainer {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-right: 1rem;
+} */
+.infoContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.info {
+  flex: 1 1 300px;
+  min-width: 250px;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  text-align: justify;
+}
+
+input {
+  font-size: 1rem;
+  padding: 8px 16px;
+  border: 2px solid rgba(0, 0, 255, 0.644);
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  margin-right: 0.25rem;
+}
+input:focus {
+  outline: none;
+  border: 2px solid darkblue;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 8px 24px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  margin: 1rem 0.5rem 0.5rem 0;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.calcularBtn {
+  background-color: blue;
+}
+.calcularBtn:hover {
+  background-color: rgb(1, 1, 75);
+}
+
+.limparBtn {
+  background-color: rgb(1, 1, 75);
+}
+.limparBtn:hover {
+  background-color: blue;
+}
+
+.textoResultado {
+  padding: 8px 16px;
+  font-size: 1.25rem;
+  margin: 2rem 0;
+  border: 1px solid blue;
+  border-radius: 4px;
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+  h3 {
+    font-size: 1rem;
+  }
+
+  input,
+  button {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .textoResultado {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .textoResultado {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+  }
+}

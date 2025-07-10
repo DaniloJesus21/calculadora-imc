@@ -1,0 +1,62 @@
+.tabela-container {
+  margin: 2rem auto;
+  max-width: 850px;
+}
+
+.tabela-titulo {
+  background-color: #3f3fd6;
+  color: white;
+  padding: 1rem;
+  border-radius: 12px 12px 0 0;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.tabela-imc {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: sans-serif;
+}
+
+.tabela-imc th,
+.tabela-imc td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.tabela-imc th {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.grau {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.amarelo {
+  background-color: #fdedb7;
+}
+
+.verde {
+  background-color: #b4ecc1;
+}
+
+.vermelho {
+  background-color: #ffc2c7;
+}
+
+@media (max-width: 768px) {
+  .tabela-imc th,
+  .tabela-imc td {
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  .tabela-titulo {
+    font-size: 1rem;
+  }
+}
