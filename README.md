@@ -32,11 +32,4 @@ pnpm install
 Inicie o projeto:
 pnpm start
 
-## 📁 Estrutura de pastas
 
-src/
-├── assets/           # Imagens e arquivos estáticos
-├── components/       # Componentes reutilizáveis (Ex: Formulário, Tabela, Footer)
-├── App.jsx           # Componente principal
-├── main.jsx          # Ponto de entrada
-└── styles/           # Estilos globais e variáveis
